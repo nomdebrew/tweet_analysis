@@ -24,7 +24,12 @@
 			<li><a href="../csv/both_1.csv">Combined data</a> where the tweet contained Hillary, Clinton, Donald or Trump</li>
 		</ul>
 		<p>Each tweet was then analyzed with TextBlob with sentiment analysis for subjectivity and polarity. The next step was to view the overall percentage <a href="breakdown.html">breakdown</a> of tweets for each subset compared to the total dataset.</p>
-<p>Afterwards the sentiments were averaged per day and graphed as a <a href="sa.html">timeseries</a>.</p>
+<p>Afterwards the sentiments were averaged per day and graphed as a <a href="sa.html">timeseries</a>. The subsets were also tokenized, lammatized, and then the standartd stop words from nltk and custom stop words were removed before rejoining the tweets. Once again <a href="sa.html">sentimate analysis</a> was used, but on the preprocessed data with the new data.</p>
+		<ul>
+			<li><a href="../csv/clinton_2.csv">Clinton’s data</a> preprocessed where the tweet contained Hillary or Clinton</li>
+			<li><a href="../csv/trump_2.csv">trunp’s data</a> preprocessed where the tweet contained Donald or Trump</li>
+			<li><a href="../csv/both_2.csv">Combined data</a> preprocessed where the tweet contained Hillary, Clinton, Donald or Trump</li>
+		</ul>
 	</div>
 
 </div>
