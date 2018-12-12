@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Mining | Final Project</title>
+	<link rel="stylesheet" type="text/css" href="primary.css">
+</head>
+<body>
+<div class="container">
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">Motivation</a></li>
+			<li class="active"><a href="data.html">Data</a></li>
+			<li><a href="breakdown.html">Breakdown</a></li>
+			<li><a href="sa.html">Sentament Analysis</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<h2>Original Data:</h2>
+		<p>The <a href="../csv/tweets.csv">original data</a> consisted of over 200,000 tweets ranging from February 2015 through August 2017. The data was then broken into 3 subsets</p>
+		<ul>
+			<li><a href="../csv/clinton_1.csv">Clinton’s data</a> where the tweet contained Hillary or Clinton</li>
+			<li><a href="../csv/trump_1.csv">trunp’s data</a> where the tweet contained Donald or Trump</li>
+			<li><a href="../csv/both_1.csv">Combined data</a> where the tweet contained Hillary, Clinton, Donald or Trump</li>
+		</ul>
+		<p>Each tweet was then analyzed with TextBlob with sentiment analysis for subjectivity and polarity. The next step was to view the overall percentage <a href="breakdown.html">breakdown</a> of tweets for each subset compared to the total dataset.</p>
+<p>Afterwards the sentiments were averaged per day and graphed as a <a href="sa.html">timeseries</a>.</p>
+	</div>
+
+</div>
+
+</body>
+</html>
